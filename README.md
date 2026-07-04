@@ -8,6 +8,8 @@ This is not a replacement for South CASS, not a full automatic mapping system, a
 
 Screenshots are stored in `screenshots/` and captured with sample data only. No real survey file is included.
 
+![CASS Smart Mapping Assistant workbench](screenshots/workbench.png)
+
 ## Features
 
 - Parse CSV, XLSX, and DAT survey point files.
