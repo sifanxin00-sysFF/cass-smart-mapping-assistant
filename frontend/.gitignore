@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.playwright-cli/
+playwright-check.png
+*.tsbuildinfo
+vite.config.d.ts
+vite.config.js

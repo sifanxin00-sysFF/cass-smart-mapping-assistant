@@ -1,0 +1,35 @@
+# Python
+backend/.venv/
+backend/.pytest_cache/
+backend/**/__pycache__/
+backend/**/*.pyc
+backend/.env
+backend/.env.local
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.playwright-cli/
+frontend/*.tsbuildinfo
+frontend/vite.config.js
+frontend/vite.config.d.ts
+
+# Local output and secrets
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+*.db
+*.sqlite
+*.sqlite3
+*.dxf
+*.dwg
+*.zip
+*.7z
+*.rar
+*.pem
+*.key
+
+.DS_Store
+Thumbs.db

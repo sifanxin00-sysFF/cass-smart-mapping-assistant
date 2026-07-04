@@ -1,0 +1,25 @@
+{
+  "project": {
+    "id": "invalid_missing_point",
+    "name": "错误样例：地物引用不存在点",
+    "scale": 500,
+    "coordinateSystem": "local",
+    "createdAt": "2026-06-13"
+  },
+  "points": [
+    { "id": "1", "east": 500.0, "north": 300.0, "height": 12.31, "note": "房角点", "code": "" },
+    { "id": "2", "east": 510.0, "north": 300.0, "height": 12.32, "note": "房角点", "code": "" }
+  ],
+  "features": [
+    {
+      "id": "feature_bad_001",
+      "type": "building",
+      "name": "引用缺失点的建筑",
+      "pointIds": ["1", "2", "999", "1"],
+      "closed": true,
+      "layer": "BUILDING",
+      "note": "999 不存在"
+    }
+  ],
+  "attachments": []
+}
